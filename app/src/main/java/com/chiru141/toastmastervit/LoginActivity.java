@@ -23,6 +23,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login);
 
         init();
         setinit();
@@ -67,7 +68,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
     private void goToMainActivity() {
-        Intent intent= new Intent(this,MainActivity.class);
+        Intent intent = new Intent(this, DashActivity.class);
         startActivity(intent);
         finish();
 

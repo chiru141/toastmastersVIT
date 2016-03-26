@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/my_profile"
+        android:title="My Profile"></item>
+
+    <item
+        android:title="My Progress"
+        android:id="@+id/my_progress" />
+
+    <item android:title="My office">
+        <menu>
+            <item
+                android:id="@+id/president"
+                android:title="President" />
+            <item
+                android:id="@+id/vpEd"
+                android:title="VP-education" />
+            <item
+                android:id="@+id/vpM"
+                android:title="VP-membership" />
+            <item
+                android:id="@+id/vpPr"
+                android:title="VP-public Relations" />
+            <item
+                android:id="@+id/secretary"
+                android:title="Secretary" />
+            <item
+                android:id="@+id/treasurer"
+                android:title="Treasurer" />
+            <item
+                android:id="@+id/saa"
+                android:title="SAA" />
+        </menu>
+    </item>
+</menu>
