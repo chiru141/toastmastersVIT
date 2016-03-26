@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"> 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/atLaunch"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:layout_marginTop="72dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="36dp"
+        android:text="YES"
+        android:textSize="30sp"
+        android:id="@+id/option_yes"
+        android:layout_alignParentLeft="true"
+        android:onClick="onClick"
+        />
+
+        <Button
+            android:onClick="onClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/option_no"
+            android:text="NO"
+            android:textSize="30sp"
+            android:layout_toRightOf="@id/option_yes"
+            android:layout_marginTop="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginLeft="72dp"
+            android:layout_alignParentRight="true"
+            />
+    </LinearLayout>
+
+</LinearLayout>
